@@ -4,25 +4,36 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Arsh deep Singh",
   initials: "AS",
-  url: "https://dillion.io",
+  url: "https://arshdeep-singh.vercel.app",
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/search/Bangalore%2C+Karnataka%2C+Bengaluru+400051%2C+India/?hl=en",
   description:
-    "Software Developer. I love building things and helping people.",
+    "Software Engineer. I love building, contributing and learning new things.",
   summary:
     "Results-driven Software Engineer with hands-on experience in full-stack development and AI-driven systems. Proficient in building scalable SaaS solutions using Node.js, React, TypeScript, and modern databases such as MongoDB and PostgreSQL. Demonstrated technical depth through an internship at Philips, advanced performance in national coding competitions (TCS CodeVita Rank 668, top 15% on LeetCode), and active participation in open-source programs like GSSoC and Smart India Hackathon. Skilled in Data Structures, Algorithms, and system-level programming with a strong foundation in software design and architecture. Adept at delivering production-grade applications integrating cloud, CI/CD, and generative AI technologies.",
   avatarUrl: "/1.JPG",
     skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "C++",
-    "Postgres",
-    "Express", 
-
-    "C++",
+    "C++", "Python", "CSS", "HTML", "TAILWIND", "JavaScript", "Java", "PostgreSQL", "AWS", "RAG Pipelines", "Vector Databases", "Data Structures & Algorithms", "MongoDB", "Express.js", "React", "Node.js", "SQL", "Git", "Linux", "Agile"
+  ],
+  codingProfiles: [
+    {
+      name: "LeetCode",
+      username: "My primary coding profile.",
+      href: "https://leetcode.com/u/arsh_ds/",
+      logoUrl: "/Letetcode.webp",
+    },
+    {
+      name: "CodeChef",
+      username: "I sometimes compete here. (I am not very active here though)",
+      href: "https://www.codechef.com/users/arshh_ds",
+      logoUrl: "/CodeChef.jpg",
+    },
+    {
+      name: "GeeksForGeeks",
+      username: "I practice problems here too :)",
+      href: "https://www.geeksforgeeks.org/profile/arsh_ds",
+      logoUrl: "/GFG.jpg"
+    }
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -87,15 +98,15 @@ export const DATA = {
     {
       school: "Lovely Professional University",
       href: "https://www.lpu.in/",
-      degree: "B.Tech in Computer Science Engineering. CGPA : 8.1 / 10",
+      degree: "B.Tech in Computer Science Engineering. CGPA : 8.2 / 10",
       logoUrl: "/Lovely_Professional_University_04_37bc70298e.png",
       start: "2022",
-      end: "2026",
+      end: "2026"
     },
     {
       school: "Himalayan Education Mission Higher Secondary School Rajouri",
       href: "https://himalayancampus.in/",
-      degree: "Higher Secondary Education. Class XII. Percentage: 90.8%",
+      degree: "Higher Secondary Education. Class XII. Percentage: 95.3%",
       logoUrl: "/logo_.jpg",
       start: "2021",
       end: "2022",
@@ -103,126 +114,96 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "CompForge",
+      href: "https://comp-forge-kappa.vercel.app/",
+      dates: "2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "CompForge is a modern web application that uses AI to generate React components with TypeScript and Tailwind CSS. Built with Next.js frontend and Node.js backend, it provides an intuitive interface for creating, customizing, and managing React components through natural language conversations.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Next.js 14", "TypeScript", "Tailwind CSS", "Zustand", "Axios", "Framer Motion", "Radix UI", "Lucide React", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "OpenRouter API", "bcryptjs", "CORS"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Ananyasrivastava01/CompForge",
+          icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Website",
+          href: "https://comp-forge-kappa.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/Screenshot (67).png",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "CashManager",
+      href: "https://cashmanager-1.onrender.com/",
+      dates: "June 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "CashManager is a secure, full-stack digital wallet application that enables users to register, manage their accounts, and perform real-time money transfers. Designed using modern web technologies and security-first architecture, this project demonstrates robust authentication, API validation, and testing workflows.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Bcrypt", "Zod", "Helmet", "CORS", "Express-Rate-Limit", "Jest", "React.js", "Vite", "React Router", "Context API", "Tailwind CSS", "Axios", "ESLint"
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://cashmanager-1.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/arshhzz/cashmanager",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/Screenshot (68).png",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Inspector UI",
+      href: "",
+      dates: "2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "A comprehensive Windows UI automation tool that generates test automation assets from live application exploration.Convert any Windows application's UI structure from Inspector JSON to structured XML and Page Object Models for test automation.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python", 
+        "Windows UI Automation",
+        "JSON Parsing",
+        "XML Generation",
+        "Pydantic"
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
         {
           type: "Source",
           href: "https://github.com/dillionverma/llm.report",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/Automation_Inspector.png",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "CPU Scheduler Simulator",
+      href: "",
+      dates: "2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "This project simulates classic CPU scheduling algorithms (FCFS, RR, SPN, SRT, HRRN, FB-1, FB-2i, Aging) and outputs either a timeline (Gantt chart) or statistics for each process..",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "C++",
+        "Data Structures",
+        "Operating Systems Concepts"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
+          type: "Source",
+          href: "https://github.com/arshhzz/CPU-Scheduling-Simulator",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/Cpu.png",
     },
   ],
   hackathons: [
@@ -234,8 +215,35 @@ export const DATA = {
         "Developed a application that use to detect cows species from their appearence, which can widely affect the local husbandry",
       image:
         "/maxresdefault.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
+    {
+      title: "CODE-A-HAUNT",
+      dates: "February, 2025",
+      location: "Jalandhar, Punjab, India",
+      description:"Developed an application that helps people create playlists based on weather and activity they are indulge into.",
+      image:
+        "",
+      links: [],
+    },
+    {
+      title: "GirlScript Summer of Code' 25",
+      dates: "Summer, 2025",
+      location: "Remote",
+      description:"Worked and Merged 2 PRs in the open-source projects, containing bug fixes and new features.",
+      image:
+        "/gssoc.jpg",
+      links: [],
+    },
+    {
+      title: "HackToberfest",
+      dates: "October, 2025",
+      location: "Remote",
+      description:"Worked and Merged 2 PRs in the open-source projects. Upgraded features and tweaked the code to improve performance.",
+      image:
+        "/hacktoberfest.png",
+      links: [],
+    },
+    
   ],
 } as const;
