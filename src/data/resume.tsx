@@ -121,7 +121,7 @@ export const DATA = {
       description:
         "CompForge is a modern web application that uses AI to generate React components with TypeScript and Tailwind CSS. Built with Next.js frontend and Node.js backend, it provides an intuitive interface for creating, customizing, and managing React components through natural language conversations.",
       technologies: [
-        "Next.js 14", "TypeScript", "Tailwind CSS", "Zustand", "Axios", "Framer Motion", "Radix UI", "Lucide React", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "OpenRouter API", "bcryptjs", "CORS"
+        "Next.js 14", "TypeScript", "Tailwind CSS", "Zustand", "Axios", "Framer Motion", "Radix UI", "Lucide React", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "bcryptjs", "CORS"
       ],
       links: [
         {
@@ -178,7 +178,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/arshhzz/Inspector-Agent-for-Windows",
           icon: <Icons.github className="size-3" />,
         },
       ],
