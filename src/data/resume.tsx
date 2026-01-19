@@ -222,7 +222,7 @@ export const DATA = {
       dates: "February, 2025",
       location: "Jalandhar, Punjab, India",
       description:"Developed an application that helps people create playlists based on weather and activity they are indulge into.",
-      image:"/Code-A-Thon.jpg",
+      image:"/Code_A_Thon.jpg",
       links: [],
     },
     {
